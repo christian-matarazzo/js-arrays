@@ -42,11 +42,13 @@ for(let i = 0; i < teachers.length; i++)
 
 // 3. Rimuovi 'Ed' dall'array teachers
 
-const removeEd = teachers.splice(1,1)
-
 console.log(teachers);
 
-console.log(removeEd);
+
+const removeEd = teachers.splice(1,1)
+
+console.log(teachers, removeEd);
+
 
 // there is a variant i tried out but will let the index empty
 
